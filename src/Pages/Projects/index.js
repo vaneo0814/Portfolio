@@ -5,7 +5,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
 // import './Pages/App.css';
 
-function Projects(props) {
+function Projects() {
     return (
         <div>
             <h1 className="projectHeader">Projects</h1>

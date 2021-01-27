@@ -9,7 +9,6 @@ function Footer() {
             <h2 className="footerHeader">
                 Let's build something great together.
             </h2>
-          
             <a className="icons" href="mailto:vorellana814@gmail.com">
                         <h1 className="envelopeFooter">
                             <FaEnvelope />
