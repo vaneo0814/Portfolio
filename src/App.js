@@ -3,6 +3,8 @@ import Projects from './Pages/Projects';
 import Articles from './Pages/Articles';
 import About from './Pages/About';
 import Nav from './Components/Nav';
+import Footer from './Components/Footer';
+
 import './App.css';
 
 
@@ -17,7 +19,7 @@ function App() {
       <Route path="/about" component={About} />
 
 
-    
+    <Footer/>
     </div>
     </BrowserRouter>
   );

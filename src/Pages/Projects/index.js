@@ -10,21 +10,21 @@ function Projects(props) {
         <div>
             <h1 className="projectHeader">Projects</h1>
             <div className="row logos">
-                <div className="col-sm">
+                <div className="col-sm-4">
                     <a className="icons" href="https://www.linkedin.com/in/vanessa-orellana-36769986/">
                         <h4>
                             <FaLinkedinIn />
                         </h4>
                     </a>
                 </div>
-                <div className="col-sm">
+                <div className="col-sm-4">
                     <a className="icons" href="https://github.com/vaneo0814">
                         <h3>
                             <FaGit />
                         </h3>
                     </a>
                 </div>
-                <div className="col-sm">
+                <div className="col-sm-4">
                     <a className="icons" href="mailto:vorellana814@gmail.com">
                         <h4>
                             <FaEnvelope/>

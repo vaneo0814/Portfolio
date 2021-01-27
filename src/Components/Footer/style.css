@@ -1,0 +1,19 @@
+.footerContainer {
+    background-image: url("https://cdn.wallpapersafari.com/27/81/iM3QsL.jpg");
+    display: block;
+    height: 170px;
+    background-size: cover;
+}
+
+.footerHeader {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 12px;
+    /* color: white; */
+}
+
+.designBy {
+    font-family: monospace;
+    font-size: 15px;
+    margin-top: 12px;
+}
