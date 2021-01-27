@@ -15,9 +15,10 @@ function Nav (){
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <Link className="nav-link" to="/">Projects</Link>
-          <Link className="nav-link" to="/articles">Articles</Link>
+          <Link className="nav-link" to="/react_portfolio">Home</Link>
+          <Link className="nav-link" to="/projects">Projects</Link>
           <Link className="nav-link" to="/about">About</Link>
+          <a class="nav-link" href="mailto:vorellana814@gmail.com">Contact</a>
         </div>
       </div>
     </nav>

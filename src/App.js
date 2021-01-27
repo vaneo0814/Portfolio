@@ -1,6 +1,6 @@
 import { BrowserRouter, Route} from 'react-router-dom';
 import Projects from './Pages/Projects';
-import Articles from './Pages/Articles';
+import Home from './Pages/Home';
 import About from './Pages/About';
 import Nav from './Components/Nav';
 import Footer from './Components/Footer';
@@ -14,8 +14,8 @@ function App() {
     <div className="App">
       <Nav/>
       {/* Routes  */}
-      <Route exact path="/" component={Projects} />
-      <Route path="/articles" component={Articles} />
+      <Route exact path="/react_portfolio" component={Home} />
+      <Route exact path="/projects" component={Projects} />
       <Route path="/about" component={About} />
 
 
