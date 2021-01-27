@@ -1,0 +1,48 @@
+.projectHeader {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.icons {
+    color: black;
+}
+
+.thumbnail {
+    display: flex;
+    margin-top: 20px;
+    padding-top: 40px;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(247, 247, 247);
+}
+
+.projectImages {
+    width: 480px;
+    height: 245px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+}
+
+  .project-image:hover .projectImages {
+    opacity: 0.2;
+  }
+  
+ .project-title {
+     color: black;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ .project-category {
+     color: black;
+     font-family: monospace;
+     font-size: 15px;
+     margin-bottom: 10px;
+ }
+  
