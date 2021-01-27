@@ -1,7 +1,8 @@
 import React from 'react';
 // import Logo from './img/vLogo.img';
 import {Link} from 'react-router-dom';
-import vLogo from './img/vLogo.jpg'
+import vLogo from './img/vLogo.jpg';
+
 
 
 function Nav (){
