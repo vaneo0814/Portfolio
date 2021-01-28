@@ -19,7 +19,7 @@ function Nav (){
           <Link className="nav-link" to="/react_portfolio">Home</Link>
           <Link className="nav-link" to="/projects">Projects</Link>
           <Link className="nav-link" to="/about">About</Link>
-          <a className="nav-link" href="mailto:vorellana814@gmail.com">Contact</a>
+          <a className="nav-link" href="mailto:vorellana814@gmail.com">Email</a>
         </div>
       </div>
     </nav>
