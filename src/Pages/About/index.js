@@ -11,7 +11,7 @@ function About() {
         About me
       </h1>
       <p className="aboutme">
-        A full-stack developer, well-organized person with high attention to detail. I am a traveler, a music enthusiast, with hobbies such as oil painting, practicing the art Jiu Jitsu, and cruising on my longboard. I am fueled by high energy levels and enthusiasm. I am interested in the entire front-end spectrum of programming and working on ambitious projects with positive people. I like to create unique projects challenging myself to achieving my visionary goals as well as learning the many languages of programming.
+        A full-stack developer, well-organized person with high attention to detail. I am a traveler, a music enthusiast, with hobbies such as oil painting, practicing the art of Jiu Jitsu, and cruising on my longboard. I am fueled by high energy levels and enthusiasm. I am interested in the entire front-end spectrum of programming and working on ambitious projects with positive people. I like to create unique projects challenging myself to achieving my visionary goals as well as learning the many languages of programming.
       </p>
       
       <div className="skillsContainer">

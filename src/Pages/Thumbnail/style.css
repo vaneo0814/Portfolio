@@ -87,3 +87,13 @@
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+
+.aLinks {
+  color: black;
+  text-decoration: none;
+}
+
+.aLinks:hover {
+  color: white;
+  font-style: italic;
+}
