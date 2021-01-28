@@ -6,6 +6,13 @@
     margin-top: 20px;
 }
 
+@media only screen and (max-width: 1200px) {
+    .aboutHeader{
+     font-size: 60px;
+     margin-top: 40px;
+    }
+  }
+
 .aboutme{
     font-size:25px;
     text-align: center;
@@ -13,15 +20,32 @@
     font-weight: bold; 
 }
 
+
 .aboutContainer {
     padding-left: 500px;
     padding-right: 500px;
 }
 
+
+@media only screen and (max-width: 1200px) {
+    .aboutContainer {
+      padding-left:10px;
+      padding-right: 10px;
+    }
+  }
+
 .aboutHeader:hover {
     font-size:88px;
     font-size-adjust: 20px;
+    text-decoration: underline;
 }
+
+@media only screen and (max-width: 1200px) {
+    .aboutHeader:hover{
+     font-size: 70px;
+     text-decoration: underline;
+    }
+  }
 
 a.skillsContact{
     font-style: italic;

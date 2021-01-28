@@ -38,6 +38,13 @@
     border-width: 1px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .projectImages {
+    width: 380px;
+    height: 215px;
+  }
+}
+
   .project-image:hover .projectImages {
     opacity: 0.2;
   }

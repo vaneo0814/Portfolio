@@ -4,25 +4,48 @@
     background-size: cover;
     background-position: center;
 }
+@media only screen and (max-width: 1200px) {
+  .leftColumn {
+    display: none;
+  }
+}
 
 .rightColumn {
-    background-color: rgb(165, 132, 165);
+    background-color: rgb(26, 12, 26);
+}
+
+@media only screen and (max-width: 1200px) {
+  .rightColumn {
+    background-image: url("https://wallpaperaccess.com/full/49908.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .nameSpan {
     color: white;
     font-family: monospace;
-    text-shadow: 8px 4px rgb(22, 9, 22);
+    text-shadow: 8px 4px rgb(84, 77, 84);
 
 }
 
 .homeHeader {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: monospace;
     font-size: 70px;
     text-align: left;
     margin-left: 30px;
     margin-top: 50px;
+    color: white;
     text-shadow: 8px 1px rgba(80, 78, 78, 0.434);
+}
+
+@media only screen and (max-width: 1200px) {
+  .homeHeader {
+    font-size: 60px;
+    margin-top: 70px;
+    color: white;
+  }
 }
 
 .typicalEffect {
