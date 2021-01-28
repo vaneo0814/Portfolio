@@ -1,0 +1,29 @@
+.aboutHeader {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 75px;
+    font-weight: bolder;
+    color: rgb(0, 41, 77);
+    margin-top: 20px;
+}
+
+.aboutme{
+    font-size:25px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    font-weight: bold; 
+}
+
+.aboutContainer {
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.aboutHeader:hover {
+    font-size:88px;
+    font-size-adjust: 20px;
+}
+
+a.skillsContact{
+    font-style: italic;
+    color: rgb(60, 220, 46);
+}
