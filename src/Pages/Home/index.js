@@ -16,6 +16,10 @@ function Home(props) {
           </Link>
         </div>
         <div className="col-lg rightColumn">
+        <Link to="projects">
+            <button className="buttonHide"><span>View my work</span>
+            </button>
+          </Link>
           <header className="homeHeader">
             Hi,<br /> I'm <span className="nameSpan">Vanessa Orellana</span>,
         </header>
@@ -26,6 +30,7 @@ function Home(props) {
               steps={[1000, 'a Full-Stack Developer.', 1000, 'I like to design & build UIs.', 1000]}
             />
           </p>
+         
         </div>
       </div>
     </div>
