@@ -1,8 +1,9 @@
 import React from 'react';
 // import Logo from './img/vLogo.img';
+import { Link } from 'react-router-dom';
 import vLogo from './img/vLogo.jpg';
-import { Navbar, Nav } from 'react-bootstrap';
-import './style.css'
+
+import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 
 class Navigation extends React.Component {
 
@@ -18,10 +19,10 @@ class Navigation extends React.Component {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                  <Nav.Link className="navLinks" href="/react_portfolio">Home</Nav.Link>
-                  <Nav.Link className="navLinks" href="/about">About</Nav.Link>
-                  <Nav.Link className="navLinks" href="/projects">Projects</Nav.Link>
-                  <Nav.Link className="navLinks" href="mailto:vorellana814@gmail.com">Contact</Nav.Link>
+                <Link className="nav-link" to="/react_portfolio">Home</Link>
+                    <Link className="nav-link" to="/projects">Projects</Link>
+                    <Link className="nav-link" to="/about">About</Link>
+                    <Nav.Link href="mailto:vorellana814@gmail.com">Contact</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
@@ -33,3 +34,4 @@ class Navigation extends React.Component {
 }
 
 export default Navigation;
+

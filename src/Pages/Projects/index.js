@@ -11,14 +11,14 @@ function Projects() {
             <h1 className="projectHeader">Projects</h1>
             <div className="row logos">
                 <div className="col-sm-4">
-                    <a className="icons" href="https://www.linkedin.com/in/vanessa-orellana-36769986/">
+                    <a className="icons" href="https://www.linkedin.com/in/vanessa-orellana-36769986/" rel="noreferrer" target="_blank">
                         <h4>
                             <FaLinkedinIn />
                         </h4>
                     </a>
                 </div>
                 <div className="col-sm-4">
-                    <a className="icons" href="https://github.com/vaneo0814">
+                    <a className="icons" href="https://github.com/vaneo0814" rel="noreferrer" target="_blank">
                         <h3>
                             <FaGit />
                         </h3>
