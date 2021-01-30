@@ -58,7 +58,7 @@ function Projects() {
                 category="App"
             />
             <Thumbnail
-                link="https://whispering-stream-30896.herokuapp.com/"
+                link="https://vaneo0814.github.io/Weather-Dashboard/"
                 image="https://i.postimg.cc/KcLpxd29/weatherdashboard.png"
                 title="Weather App"
                 category="App"
