@@ -18,6 +18,11 @@ function Thumbnail(props) {
                 </a>
             </div>
             <div className="project-category">{props.category}</div>
+            <div className="project-repo">
+            <a href={props.github} rel="noreferrer" target="_blank">
+            Github
+                </a>
+                </div>
 
         </div>
     );
