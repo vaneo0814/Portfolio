@@ -2,6 +2,8 @@ import React from 'react'; // Import the Component component from React
 // import { Link } from 'react-router-dom'; // Import the Link component
 // import './Pages/App.css';
 import './style.css';
+import { FaGithub } from 'react-icons/fa';
+
 
 
 function Thumbnail(props) {
@@ -20,7 +22,9 @@ function Thumbnail(props) {
             <div className="project-category">{props.category}</div>
             <div className="project-repo">
             <a href={props.github} rel="noreferrer" target="_blank">
-            Github
+                <h3 className="githubLogo">
+                <FaGithub/>
+                </h3>
                 </a>
                 </div>
 

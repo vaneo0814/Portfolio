@@ -158,3 +158,28 @@
       color: black;
     }
   }
+
+  .skillsContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    background-color:rgba(201, 202, 193, 0.692);
+    padding: 20px;
+  }
+  
+  .home-skills {
+    color: black;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 20px;
+       font-weight: bold;
+       text-decoration: none;
+  }
+  
+  .skillsLogo {
+    color: rgb(177, 63, 177);
+  }
+
+  .homeContainer {
+    background-color:rgba(201, 202, 193, 0.425);
+    height: 980px;
+  }
