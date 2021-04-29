@@ -1,0 +1,118 @@
+.projectHeader {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.icons {
+    color: black;
+    display: block;
+}
+
+.icons:hover{
+  color:rgb(68, 118, 94);
+
+}
+
+.thumbnail {
+    display: flex;
+    margin-top: 20px;
+    padding-top: 40px;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+    /* background-color: rgb(247, 247, 247); */
+    padding-bottom: 45px;
+}
+
+.projectImages {
+    width: 480px;
+    height: 245px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+    border-color: rgb(199, 198, 198);
+    border-style: solid;
+    border-width: 1px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .projectImages {
+    width: 380px;
+    height: 215px;
+  }
+}
+
+  .project-image:hover .projectImages {
+    opacity: 0.2;
+  }
+  
+ .project-title {
+     color: black;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     text-decoration: none;
+
+ }
+
+ .project-category {
+     color: black;
+     font-family: monospace;
+     font-size: 15px;
+     /* margin-bottom: 10px; */
+     text-decoration: none;
+ }
+
+ .project-repo {
+  color: black;
+  font-family: monospace;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-weight: bolder;
+ }
+  
+ .project-title:hover {
+    background-color:rgb(68, 118, 94);
+    color: white;
+ }
+
+/*.projectHeader*/
+.projectHeader:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+.projectHeader:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.aLinks {
+  color: black;
+  text-decoration: none;
+}
+
+.aLinks:hover {
+  color: white;
+  font-style: italic;
+}
+
+.githubLogo{
+  color: rgb(30, 89, 156);
+}

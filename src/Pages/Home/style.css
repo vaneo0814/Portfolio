@@ -1,0 +1,193 @@
+.leftColumn {
+    background-image: url("https://wallpaperaccess.com/full/49908.jpg");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+@media only screen and (max-width: 1200px) {
+  .leftColumn {
+    display: none;
+  }
+}
+
+.rightColumn {
+    background-color: rgb(26, 12, 26);
+}
+
+@media only screen and (max-width: 1200px) {
+  .rightColumn {
+    background-image: url("https://wallpaperaccess.com/full/49908.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.nameSpan {
+    color: white;
+    font-family: monospace;
+    text-shadow: 8px 4px rgb(84, 77, 84);
+
+}
+
+.homeHeader {
+    font-family: monospace;
+    font-size: 70px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 8px 1px rgba(80, 78, 78, 0.434);
+}
+
+@media only screen and (max-width: 1200px) {
+  .homeHeader {
+    font-size: 60px;
+    margin-top: 40px;
+    color: white;
+  }
+}
+
+.typicalEffect {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.button {
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 200px;
+    background-color: rgb(2, 2, 38);
+    color: white;
+    border: none;
+    transition: all 0.7s;
+    cursor: pointer;
+    display:block;
+    float: right;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+ 
+  .button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .buttonHide {
+    display: none;
+  }
+
+  @media only screen and (max-width: 1200px) {
+     .buttonHide {
+      border-radius: 4px;
+      text-align: center;
+      font-size: 15px;
+      padding: 15px;
+      width: 150px;
+      background-color: rgb(2, 2, 38);
+      color: white;
+      border: none;
+      transition: all 0.7s;
+      cursor: pointer;
+      display:block;
+      float: right;
+      margin-right: 5px;
+      margin-top: 70px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+    }
+    
+    .buttonHide span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .buttonHide span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .buttonHide:hover span {
+      padding-right: 25px;
+    }
+    
+    .buttonHide:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+   
+    .buttonHide:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+
+  .skillsContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    background-color:rgba(201, 202, 193, 0.692);
+    padding: 20px;
+  }
+  
+  .home-skills {
+    color: black;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 20px;
+       font-weight: bold;
+       text-decoration: none;
+  }
+  
+  .skillsLogo {
+    color: rgb(177, 63, 177);
+  }
+
+  .homeContainer {
+    background-color:rgba(201, 202, 193, 0.425);
+    height: 980px;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .homeContainer {
+      height: 1220px;
+      width: fit-content;
+    }
+  }
+
