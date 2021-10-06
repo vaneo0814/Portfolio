@@ -7,12 +7,8 @@ import {FaGithub } from 'react-icons/fa';
 function About() {
   return (
     <div className="aboutPage">
-      <ParticlesBg type="cobweb" color="#000033" bg={true} />
-      {/* <div className="row div">
         <div className="col-lg">
-        <h1 className="aboutHeader">
-          About me
-      </h1>
+        <img src="https://i.postimg.cc/rs8tDmKy/ello.jpg" alt="headshot" className="headshot"></img>
         <p className="aboutme">
           A full-stack developer, well-organized person with high attention to detail. I went on to pursue programming by attending Rutgers Universities Full Stack Coding Bootcamp, completing other online courses, and spending countless hours learning the art. I am a traveler, a music enthusiast, with hobbies such as oil painting, practicing the art of Jiu Jitsu, and cruising on my longboard. I am fueled by high energy levels and enthusiasm. I am interested in the entire front-end spectrum of programming and working on ambitious projects with positive people. I like to create unique projects challenging myself to achieving my visionary goals as well as learning the many languages of programming.
       </p>
@@ -32,7 +28,7 @@ function About() {
           </h1>
           </a>
         </div>
-        </div> */}
+    
 
 
     </div>
