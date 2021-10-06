@@ -7,12 +7,12 @@ function Footer() {
     return (
         <div className="footerContainer">
             <h2 className="footerHeader">
-                Let's build something great together.
+                Lets build something great together.
             </h2>
             <a className="icons" href="mailto:vorellana814@gmail.com">
-                        <h1 className="envelopeFooter">
+                        <h2 className="envelopeFooter">
                             <FaEnvelope />
-                        </h1>
+                        </h2>
                     </a>
             <h4 className="designBy">
                 Design by Vanessa Orellana

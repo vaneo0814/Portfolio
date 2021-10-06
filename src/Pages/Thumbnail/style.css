@@ -12,24 +12,23 @@
 }
 
 .icons:hover{
-  color:rgb(68, 118, 94);
+  color: rgb(199, 121, 214);
 
 }
 
 .thumbnail {
     display: flex;
     margin-top: 20px;
-    padding-top: 40px;
+    padding-top: 20px;
     flex-flow: row wrap;
     justify-content: center;
     justify-content: space-around;
     /* background-color: rgb(247, 247, 247); */
-    padding-bottom: 45px;
 }
 
 .projectImages {
-    width: 480px;
-    height: 245px;
+    width: 385px;
+    height: 225px;
     transition: .5s ease;
     backface-visibility: hidden;
     opacity: 1;
@@ -76,8 +75,8 @@
  }
   
  .project-title:hover {
-    background-color:rgb(68, 118, 94);
-    color: white;
+  background-color: rgb(199, 121, 214);
+    color: black;
  }
 
 /*.projectHeader*/
@@ -95,13 +94,17 @@
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
+  
 }
 
 .projectHeader:hover:after {
   opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
+  color: rgb(199, 121, 214);
 }
+
+
 
 .aLinks {
   color: black;
@@ -114,5 +117,5 @@
 }
 
 .githubLogo{
-  color: rgb(30, 89, 156);
+  color: rgb(199, 121, 214);
 }

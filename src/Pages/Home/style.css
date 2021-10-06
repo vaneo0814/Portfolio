@@ -64,8 +64,7 @@
     width: 200px;
     background-color: rgb(2, 2, 38);
     color: white;
-    border: none;
-    transition: all 0.7s;
+    transition: all 0.9s;
     cursor: pointer;
     display:block;
     float: right;
@@ -99,10 +98,6 @@
     right: 0;
   }
  
-  .button:hover {
-    background-color: white;
-    color: black;
-  }
 
   .buttonHide {
     display: none;
@@ -160,29 +155,43 @@
   }
 
   .skillsContainer {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-right: 20px;
-    background-color:rgba(201, 202, 193, 0.692);
-    padding: 20px;
-  }
-  
-  .home-skills {
-    color: black;
-       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-       font-size: 20px;
-       font-weight: bold;
-       text-decoration: none;
-  }
-  
-  .skillsLogo {
-    color: rgb(177, 63, 177);
+    background-color: rgba(212, 212, 200, 0.473);
+    padding: 30px;
+    
   }
 
-  .homeContainer {
-    background-color:rgba(201, 202, 193, 0.425);
-    height: 980px;
+  .skillsLogo {
+    color: rgb(172, 89, 250);
+    font-family: monospace;
   }
+
+  h2 {
+    color: black;
+  }
+
+  .home-skills {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+
+  h5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(172, 89, 250);
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  p, li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+
+  }
+
 
   @media only screen and (max-width: 1200px) {
     .homeContainer {
@@ -190,4 +199,3 @@
       width: fit-content;
     }
   }
-
