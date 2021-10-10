@@ -1,3 +1,8 @@
+.headshot {
+  width: 25vw;
+  justify-content: center;
+}
+
 .aboutHeader {
     color: #fff;
     font-size: 45px;
@@ -62,7 +67,7 @@ a.skillsContact{
 }
 
 .aboutPage {
-  height: 500px;
+  height: 700px;
   display: flex;
   flex-direction: row wrap;
 }
