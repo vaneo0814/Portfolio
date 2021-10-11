@@ -4,7 +4,7 @@ import { FaGit } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaFilePdf } from 'react-icons/fa';
 // import { Document, Page } from 'react-pdf';
-import Resume from '../../utils/Resume/vanessaorellana.pdf';
+import Resume from '../../utils/Resume/updatedresume.pdf';
 
 function Projects() {
     return (
@@ -35,6 +35,13 @@ function Projects() {
             </div>
             <div className="thumbnail">
             <Thumbnail
+                    link="https://moderntravelers.net/"
+                    image="https://i.postimg.cc/rsxxR7Jj/moderntravelers.png"
+                    title="Modern Travelers"
+                    category="Website/App"
+                    github="https://github.com/vaneo0814/modern-travelers-site"
+                />
+            <Thumbnail
                     link="https://torchedrest007.herokuapp.com/"
                     image="https://i.postimg.cc/MHGtYXtQ/Screen-Shot-2021-04-27-at-7-05-30-PM.png"
                     title="torched"
@@ -42,7 +49,7 @@ function Projects() {
                     github="https://github.com/vaneo0814/torched_rest"
                 />
                 <Thumbnail
-                    link="https://whispering-stream-30896.herokuapp.com/"
+                    link="https://tranquil-savannah-13949.herokuapp.com/about.html"
                     image="https://i.postimg.cc/q7qw6FCC/pab.png"
                     title="Potentially a Blog"
                     category="Website"
@@ -77,14 +84,6 @@ function Projects() {
                     title="Weather App"
                     category="App"
                     github="https://github.com/vaneo0814/Weather-Dashboard"
-
-                />
-                <Thumbnail
-                    link=""
-                    image="https://i.postimg.cc/dt6B0FS9/Screen-Shot-2021-01-26-at-4-36-22-PM.png"
-                    title="Deep Dive Jiu Jitsu"
-                    category="Website (Work in progress...)"
-                    github="https://github.com/vaneo0814/deepdive"
 
                 />
                 <Thumbnail
