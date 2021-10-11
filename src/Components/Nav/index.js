@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import vLogo from './img/vLogo.jpg';
 
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav} from 'react-bootstrap';
 
 class Navigation extends React.Component {
 
