@@ -1,0 +1,24 @@
+.footerContainer {
+    background-color: rgb(224, 224, 220);
+    display: block;
+    height: 170px;
+    background-size: cover;
+    padding-top: 15px;
+}
+
+.footerHeader {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+.designBy {
+    font-family: monospace;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+footer {
+    font-size: 10px;
+}

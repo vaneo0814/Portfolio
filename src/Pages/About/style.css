@@ -1,0 +1,87 @@
+.headshot {
+  width: 22vw;
+  float: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .headshot {
+    width: 40vw;
+  }
+}
+
+.aboutHeader {
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: 'Shadows Into Light', cursive;
+    background: linear-gradient(to right,#001b32 10%, #224287 50%, #808ea0 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+}
+
+
+.aboutHeader:hover {
+   background: linear-gradient(to right,#020b13 10%, #947a13 50%, #e7bb09 60%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+
+a.skillsContact{
+    font-style: italic;
+    color: rgb(172, 89, 250);
+}
+
+.aboutPage {
+  /* height: 600px; */
+  display: flex;
+  flex-direction: row wrap;
+  background-image: url("https://images.unsplash.com/photo-1610571273412-f43a878c1550?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5Mzk0ODM1fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+@media only screen and (max-width: 1200px) {
+  .aboutPage {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.skills {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+}
+
+
+.leftAbout {
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .leftAbout {
+    margin-left: 5px;
+  }
+}
+
+p {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.resume {
+  text-decoration: none;
+  color: rgb(172, 89, 250);
+
+}
+
+.resume:hover{
+  text-decoration: none;
+
+}
