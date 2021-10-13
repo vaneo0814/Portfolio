@@ -4,7 +4,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Navigation from './Components/Nav';
 import Footer from './Components/Footer';
-
+import _ from 'lodash';
 import './App.css';
 
 
