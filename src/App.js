@@ -1,16 +1,15 @@
-import { BrowserRouter, Route} from 'react-router-dom';
+import { BrowserRouter, Route, HashRouter} from 'react-router-dom';
 import Projects from './Pages/Projects';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Navigation from './Components/Nav';
 import Footer from './Components/Footer';
-import _ from 'lodash';
 import './App.css';
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="App">
       <Navigation/>
       {/* Routes  */}
@@ -19,7 +18,7 @@ function App() {
       <Route path="/about" component={About} />
     <Footer/>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

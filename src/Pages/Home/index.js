@@ -11,14 +11,14 @@ function Home() {
       <div className="row">
         <div className="col-lg leftColumn">
           {/* //this is going to have to be a link */}
-          <Link to="projects">
+          <Link to="/projects">
             <button className="button">
               <span>View my work</span>
             </button>
           </Link>
         </div>
         <div className="col-lg rightColumn">
-          <Link to="projects">
+          <Link to="/projects">
             <button className="buttonHide">
               <span>View my work</span>
             </button>
