@@ -13,7 +13,7 @@ class Navigation extends React.Component {
         <div className="row">
           <div className="col-md-12">
             <Navbar bg="light" variant="light" expand="lg" sticky="top">
-              <Navbar.Brand href="/portfolio">
+              <Navbar.Brand>
                 <img src={vLogo} width="60" height="60" className="d-inline-block align-top" alt="inital_logo" loading="lazy" />
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
