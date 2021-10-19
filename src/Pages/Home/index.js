@@ -57,14 +57,8 @@ function Home() {
             <p>UX, UI, Web, Mobile, Apps, Logos</p>
           </section>
           <section>
-            <h5>Design Tools:</h5>
-            <ul>
-              <li>Figma</li>
-              <li>Webflow</li>
-              <li>Sketch</li>
-              <li>Pen & Paper</li>
-              <li>Sass</li>
-            </ul>
+            <h5>Design Tools &#128394;</h5>
+            <p>Figma, Webflow, Sketch, Pen  Paper, Sass</p>
           </section>
         </div>
         <div className="col-lg">
@@ -83,20 +77,8 @@ function Home() {
             <p>HTML, CSS, Sass, React.js, Next.js, Jquery, JS</p>
           </section>
           <section>
-            <h5>Dev Tools:</h5>
-            <ul>
-              <li>Bootstrap</li>
-              <li>Codepen</li>
-              <li>Github</li>
-              <li>Terminal</li>
-              <li>Sass</li>
-              <li>Bootstrap</li>
-              <li>VSCode</li>
-              <li>Chrome</li>
-              <li>Prettier</li>
-              <li>Git</li>
-              <li>Npm</li>
-            </ul>
+            <h5>Dev Tools &#128736;</h5>
+            <p>Bootstrap, Codepen, Github, Terminal, Sass, VSCode, Chrome, Prettier, Git, Npm, Wordpress</p>
           </section>
         </div>
       </div>
